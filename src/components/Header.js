@@ -1,11 +1,14 @@
 import React from 'react';
 
 // ecma 6 function 
-const Header=() =>{
+const Header=(props) =>{
+    console.log(props);
 
-    return( 
-    <h1> Hello functional component </h1>
-    
+    return(
+        <div>
+    <h1> Hello functional component {props.name} {props.last}</h1>
+    {props.children}
+    </div> 
     );
 
 }

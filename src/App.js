@@ -15,8 +15,10 @@ render(){
   return(
   <div className="App">
   <h1>hy shivam</h1>
-  <Header/>
-  <CHeader/>
+  <Header name="Shivam" last="srivastava">
+    <p>Shivam is a good boy</p>
+  </Header>
+  <CHeader name="Gaurav"/>
   </div>
   );
   
