@@ -1,8 +1,12 @@
 import React from 'react';
 
-function Header(){
+// ecma 6 function 
+const Header=() =>{
 
-    return <h1> Hello functional component </h1>
+    return( 
+    <h1> Hello functional component </h1>
+    
+    );
 
 }
 

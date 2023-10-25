@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header'
+import CHeader from './components/CHeader'
 
 
 
@@ -11,7 +12,13 @@ const name = <span>Hello this is with jsx</span>
 class App extends React.Component{
 
 render(){
-  return <Header/>
+  return(
+  <div className="App">
+  <h1>hy shivam</h1>
+  <Header/>
+  <CHeader/>
+  </div>
+  );
   
 }
 
