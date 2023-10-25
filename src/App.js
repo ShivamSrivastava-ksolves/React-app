@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header'
 import CHeader from './components/CHeader'
+import Channel from './components/Channel'
 
 
 
@@ -14,11 +15,14 @@ class App extends React.Component{
 render(){
   return(
   <div className="App">
-  <h1>hy shivam</h1>
-  <Header name="Shivam" last="srivastava">
-    <p>Shivam is a good boy</p>
+  
+  <Header name="Shivam">
+    <p>This is prop through Functional component </p>
   </Header>
-  <CHeader name="Gaurav"/>
+  <CHeader name="Shivam">
+  <p>This is prop through Class component </p>
+  </CHeader>
+  <Channel/>
   </div>
   );
   
